@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta name="description" content="The web design portfolio of Aleksandar Stefanovski and Romeo Stojceski">
+    <meta name="keywords" content="aleksandar stefanovski, aleksandar, romeo stojceski, romeo, website, web design, responsive, mobile, web development, animation, typography, gym, healthylife,fitness">
+
+    <title>Gym-Life</title>
+
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="Logo-icon.png" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Open+Sans:400,400i,700,800" rel="stylesheet">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="queries.css">
+
+    <!-- Bootstrap js -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Nav -->
+        <nav>
+
+            <!-- Logo -->
+            <div id="logo">
+                <a href="index.html"><img src="Logo.svg" alt="Logo for the Website">
+                    <p>Fitness Gym</p>
+                </a>
+
+            </div>
+
+            <!-- Navigation -->
+            <ul id="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comingsoon.html" target="_blank">BodyBuilding</a></li>
+                <li><a href="comingsoon.html" target="_blank">Fitness</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="form.html">Log In</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </nav> <!-- Nav Ends Here -->
+
+        <!-- Section Coming Soon -->
+        <section class="comingsoon">
+            <h1>COMING SOON!</h1>
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <!-- Footer Nav -->
+            <div id="footer-nav">
+
+                <!-- Logo for Footer -->
+                <div id="footer-logo">
+                    <a href="index.html"> <img src="Logo.svg" alt="#"> </a>
+                </div>
+
+                <!-- Navigation -->
+                <ul id="footer-main-nav">
+                    <li><a href="comingsoon.html" target="_blank">Faq</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="comingsoon.html" target="_blank">Privacy Policy</a></li>
+                    <li><a href="comingsoon.html" target="_blank">Terms of Service</a></li>
+                </ul>
+
+                <!-- Icons -->
+                <div id="icons">
+                    <a href="#" target="_blank"><img src="facebook-icon.png " alt="Facebook Icon"></a>
+                    <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram Icon"></a>
+                </div>
+
+            </div> <!-- Nav Ends Here -->
+
+        </footer> <!-- Footer Ends Here -->
+
+    </div> <!-- Container Ends Here -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.menu-toggle').click(function() {
+                $('ul').toggleClass('active')
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>
